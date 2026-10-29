@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+# El dataset se descarga solo (torchvision), no se sube
+data/*
+!data/.gitkeep
+# Pesos del modelo (opcional, pesan varios MB)
+outputs/*.pt
